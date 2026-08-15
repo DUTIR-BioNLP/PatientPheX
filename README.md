@@ -366,7 +366,7 @@ $Score= 0.25\times (F1_{men} + F1_{doc}) + 0.25\times (F1_{micro} + F1_{macro})$
 朱旋律（xlzhu@mail\.dlut\.edu\.cn）
 
 **相关网站链接**\
-CHIP官网：http://cips-chip.org.cn/\
+CHIP官网：http://cips-chip.org.cn/ \
 天池平台：https://tianchi.aliyun.com/competition/entrance/532512
 
 **钉钉群**\
