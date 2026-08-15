@@ -377,5 +377,5 @@ CHIP官网：http://cips-chip.org.cn/
 
 大赛官方钉钉群请扫码加入，最新通知将会第一时间在群内同步。
 
-<img src=https://static.tianchi.aliyun.com/tianchi/race/images/prod/532512/1242990779776242/otzc88vq6rj6nqcs.png width="200">
+<img src=https://static.tianchi.aliyun.com/tianchi/race/images/prod/532512/1242990779776242/otzc88vq6rj6nqcs.png width="300">
 
