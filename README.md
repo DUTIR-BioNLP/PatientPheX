@@ -75,14 +75,27 @@ PatientPheX数据集共包含200篇全文级PMC生物医学文献，其中训练
 {
   "pmc_id": "12652105",
   "pmid": "41300704",
-  "person": [
+  "patient": [
     {
     "patient_id": "OII.1",
-    "name": {"text": "patient one (II.1)", "offset": 12645, "length": 18}
+    "mention": [{
+                    "text": "an 18-year-old female",
+                    "offset": 10434,
+                    "length": 21
+                },
+                {
+                    "text": "patient one (II.1)",
+                    "offset": 12645,
+                    "length": 18
+                }]
     },
     {
     "patient_id": "OII.2",
-    "name": {"text": "Patient II.2", "offset": 13059, "length": 12}
+    "mention": [{
+                    "text": "Patient II.2",
+                    "offset": 13059,
+                    "length": 12
+                }]
     },
     ...
   ],
@@ -110,32 +123,16 @@ PatientPheX数据集共包含200篇全文级PMC生物医学文献，其中训练
       "note": null},
       ...
    ],
-   "patients": [
+   "association": [
     {
       "patient_id": "OII.1",
-      "mention": [
-        {"text": "an 18-year-old female", "offset": 10434, "length": 21},
-        ...
-      ],
-      "association": {
-        "phenotype": [
-          {"text": "surgical correction of an elbow", "id": "HP:0003938"},
-          ...
-        ],
-      }
+      "phenotype": ["HP:0003938", HP:0001945, HP:0002063, ...],
     },
     {
       "patient_id": "OII.2",
-      "mention": [
-        {"text": "Patient II.2", "offset": 13059, "length": 12},
-      ],
-      "association": {
-        "phenotype": [
-          {"text": "clubfoot", "id": "HP:0001762"},
-          ...
-        ],
-      }
+      "phenotype": ["HP:0001762", "HP:0000508",...],
     },
+  ...
   ]
 }
 ```
@@ -148,27 +145,25 @@ PatientPheX数据集共包含200篇全文级PMC生物医学文献，其中训练
 |---|---|---|---|
 |pmc\_id||12652105|PMC全文编号|
 |pmid||41300704|PubMed文献编号|
-|person|||本文指定患者|
-||patient\_id|OII\.1|患者唯一标识，文章出现具体编号则“**O\+文中的编号”，其他为P开头按出现顺序编号**|
-||name|patient one \(II\.1\)|患者文中具体提及，包含位置信息|
+|patient|||本文指定患者|
+||patient\_id|OII\.1|患者唯一标识，文章出现具体编号则“O\+文中的编号”，其他为P开头按出现顺序编号|
+||mention|patient one \(II\.1\)|患者文中具体提及，包含位置信息,该患者在正文中的部分有效文本指称（非全部指称）|
 |full\_text|||文献全文正文内容|
 ||section\_type|TITLE|章节类别|
 ||type|front|BioC passage的细粒度类型|
 ||offset|0|该章节在原始完整全文中的全局起始字符位置|
 ||text||section的原始文本|
 |entities|||正文部分所有表型信息|
-||identifier|HP:0002047|**标准化 HPO ID，复合表型使用分号分隔，无有效ID时为****`-1`**|
+||identifier|HP:0002047|标准化 HPO ID，复合表型使用分号分隔，无有效ID时为`-1`|
 ||type|Phenotype|实体类型，当前为`Phenotype`|
 ||offset|42|实体在原始完整全文中的全局字符位置|
 ||length|22|实体文本的字符长度|
 ||text|Malignant Hyperthermia|实体在原文中的实际文本|
 ||note|null/No|附加标记；默认null；`NO`表示否定表型|
-|patients|||文中所有患者关联信息|
+|association|||文中所有患者关联信息|
 ||patient\_id|OII\.1|患者唯一标识|
-||mentions||**该患者在正文中的部分有效文本指称（非****全部指称****）**|
 ||association\.phenotype||患者关联的表型集合|
-||\.text|hyperthermia|表型实体在原文中的实际文本|
-||\.id|HP:0001945|标准化 HPO ID|
+
 
 ## 结果提交
 
@@ -202,15 +197,10 @@ PatientPheX数据集共包含200篇全文级PMC生物医学文献，其中训练
       "note": null},
       ...
    ],
-   "patients": [
+   "association": [
     {
       "patient_id": "P1",
-      "association": {
-        "phenotype": [
-          {"text": "cesarean section", "id": "HP:0011410"},
-          ...
-        ],
-      }
+      "phenotype": ["HP:0011410",...],
     },
     ...
   ]
@@ -220,7 +210,7 @@ PatientPheX数据集共包含200篇全文级PMC生物医学文献，其中训练
 字段说明：
 
 - entities：全文预测的所有表型实体提及
-- patients：特定患者的表型实体预测结果
+- association：特定患者的表型实体预测结果
 
 ## 评测指标
 
