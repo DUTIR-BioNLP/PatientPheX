@@ -313,6 +313,8 @@ $F1_{macro}=\frac{1}{K}\sum_{i=1}^{K}F1_i$
 
 $Score= 0.25\times (F1_{men} + F1_{doc}) + 0.25\times (F1_{micro} + F1_{macro})$
 
+### Baseline系统
+Baseline方法首先用指定版本HPO训练的PhenoTagger进行子任务1；随后使用 Qwen3-8B 大语言模型，通过提示词工程识别文本中指定患者的相关提及，再结合上下文将患者与已识别的表型实体进行关联，预测子任务2。整体方法并未使用训练集优化。
 
 ## 奖励设置
 
