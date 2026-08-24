@@ -1,7 +1,7 @@
 # 面向生物医学全文的特定患者表型概念识别任务
 
 <p align="center">
-        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议评测网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="">数据集论文(稍后发布)</a>
+        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information?lang=zh-cn">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="">数据集论文(稍后发布)</a>
 <br>
 <br>
 </p>
