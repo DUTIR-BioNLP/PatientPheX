@@ -1,3 +1,5 @@
+[ [中文](./README.md)  | **English** ]
+
 # Patient-Specific Phenotype Concept Recognition from Full-Text Biomedical Literature
 
 <p align="center">
@@ -6,7 +8,7 @@
 <br>
 </p>
 
-- [Patient-Specific Phenotype Concept Recognition from Full-Text Biomedical Literature](#patient-specific-phenotype-concept-recognition-from-full-text-biomedical-articles)
+- [Patient-Specific Phenotype Concept Recognition from Full-Text Biomedical Literature](#patient-specific-phenotype-concept-recognition-from-full-text-biomedical-literature)
   - [Background](#background)
   - [Task Description](#task-description)
   - [Dataset](#dataset)
