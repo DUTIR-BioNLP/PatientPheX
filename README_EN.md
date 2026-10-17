@@ -3,7 +3,7 @@
 # Patient-Specific Phenotype Concept Recognition from Full-Text Biomedical Literature
 
 <p align="center">
-        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512">Tianchi Evaluation Platform</a>&nbsp;&nbsp; | &nbsp;&nbsp;📅 <a href="http://cips-chip.org.cn/2026/">CHIP 2026 Evaluation Website</a>&nbsp;&nbsp; | &nbsp;&nbsp;🗂️ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information">Evaluation Data</a>&nbsp;&nbsp; | &nbsp;&nbsp;📃 <a href="">Dataset Paper (Coming Soon)</a>
+        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512">Tianchi Evaluation Platform</a>&nbsp;&nbsp; | &nbsp;&nbsp;📅 <a href="http://cips-chip.org.cn/2026/">CHIP 2026 Evaluation Website</a>&nbsp;&nbsp; | &nbsp;&nbsp;🗂️ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information">Evaluation Data</a>&nbsp;&nbsp; | &nbsp;&nbsp;📃 <a href="https://doi.org/10.64898/2026.10.07.757319">Dataset Paper (preprint)</a>
 <br>
 <br>
 </p>
@@ -388,3 +388,18 @@ Please scan the QR code below to join the official DingTalk group. Important com
 [2] Luo L, Yan S, Lai PT, et al. PhenoTagger: a hybrid method for phenotype concept recognition using human phenotype ontology. *Bioinformatics*. 2021;37(13):1884-90.  
 [3] Feng Y, Qi L, Tian W. PhenoBERT: a combined deep learning method for automated recognition of human phenotype ontology. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*. 2022;20(2):1269-77.  
 [4] Tao Y, Huang Y, Wang Y, et al. AutoPCR: automated phenotype concept recognition by prompting. *Bioinformatics*. 2026;42(Supplement_1):btag304.
+
+## Citation
+
+If you use the repository of this project, please cite it.
+
+```
+@article{PatientPheX,
+  title="{PatientPheX: A Full-Text Biomedical Corpus for Patient-Specific Phenotype Information Extraction}",
+  author={Xuanlyu Zhu, Ling Luo, Zhijun Wang, Chentao Huang, Yunxiang Li, Yang Zhong, Tengxiao Lv, Juntao Li, Chao Liu, Feng Tian, Yuanyuan Sun, Jian Wang, Hongfei Linn},
+  journal={bioRxiv},
+  year={2026},
+  doi = {10.64898/2026.10.07.757319},
+  url = {https://doi.org/10.64898/2026.10.07.757319},
+}
+```
