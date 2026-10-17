@@ -3,7 +3,7 @@
 # 面向生物医学全文的特定患者表型概念识别任务
 
 <p align="center">
-        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information?lang=zh-cn">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="">数据集论文(稍后发布)</a>
+        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information?lang=zh-cn">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="https://www.biorxiv.org/content/10.64898/2026.10.07.757319v1">数据集论文(预印版)</a>
 <br>
 <br>
 </p>
@@ -379,3 +379,18 @@ CHIP官网：http://cips-chip.org.cn/ \
 [2] Luo L, Yan S, Lai PT, et al. PhenoTagger: a hybrid method for phenotype concept recognition using human phenotype ontology. Bioinformatics. 2021;37(13):1884-90.\
 [3] Feng Y, Qi L, Tian W. PhenoBERT: a combined deep learning method for automated recognition of human phenotype ontology. IEEE/ACM Transactions on Computational Biology and Bioinformatics. 2022;20(2):1269-77.\
 [4] Tao Y, Huang Y, Wang Y, et al. AutoPCR: automated phenotype concept recognition by prompting. Bioinformatics. 2026;42(Supplement_1):btag304.
+
+## 引用
+
+如果你使用到了本项目的仓库，请引用。
+
+```
+@article{PatientPheX,
+  title="{PatientPheX: A Full-Text Biomedical Corpus for Patient-Specific Phenotype Information Extraction}",
+  author={Xuanlyu Zhu, Ling Luo, Zhijun Wang, Chentao Huang, Yunxiang Li, Yang Zhong, Tengxiao Lv, Juntao Li, Chao Liu, Feng Tian, Yuanyuan Sun, Jian Wang, Hongfei Linn},
+  journal={bioRxiv},
+  year={2026},
+  doi = {10.64898/2026.10.07.757319},
+  url = {https://doi.org/10.64898/2026.10.07.757319},
+}
+```
