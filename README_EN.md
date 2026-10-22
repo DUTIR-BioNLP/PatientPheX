@@ -3,7 +3,7 @@
 # Patient-Specific Phenotype Concept Recognition from Full-Text Biomedical Literature
 
 <p align="center">
-        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512">Tianchi Evaluation Platform</a>&nbsp;&nbsp; | &nbsp;&nbsp;📅 <a href="http://cips-chip.org.cn/2026/">CHIP 2026 Evaluation Website</a>&nbsp;&nbsp; | &nbsp;&nbsp;🗂️ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information">Evaluation Data</a>&nbsp;&nbsp; | &nbsp;&nbsp;📃 <a href="https://doi.org/10.64898/2026.10.07.757319">Dataset Paper (preprint)</a>
+        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512">Tianchi Evaluation Platform</a>&nbsp;&nbsp; | &nbsp;&nbsp;📅 <a href="http://cips-chip.org.cn/2026/">CHIP 2026 Evaluation Website</a>&nbsp;&nbsp; | &nbsp;&nbsp;🗂️ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information">Evaluation Data</a>&nbsp;&nbsp; | &nbsp;&nbsp;📃 <a href="https://doi.org/10.64898/2026.10.07.757319">Dataset Paper (preprint)</a> | &nbsp&nbsp📃 <a href="https://arxiv.org/abs/2610.29606">Overview paper(preprint)</a>
 <br>
 <br>
 </p>
@@ -391,7 +391,7 @@ Please scan the QR code below to join the official DingTalk group. Important com
 
 ## Citation
 
-If you use the repository of this project, please cite it.
+If you use the repository of this project, please cite them.
 
 ```
 @article{PatientPheX,
@@ -401,5 +401,13 @@ If you use the repository of this project, please cite it.
   year={2026},
   doi = {10.64898/2026.10.07.757319},
   url = {https://doi.org/10.64898/2026.10.07.757319},
+}
+@article{OverviewCHIP,
+  title="{Overview of CHIP 2026 Shared Task 1: Patient-Specific Phenotype Concept Recognition in Full-Text Biomedical Literature}",
+  author={Xuanlyu Zhu, Feng Tian, Yang Zhong, Pengqi Zheng, Xiwen Bi, Ling Luo, Yuanyuan Sun, Jian Wang, Hongfei Lin},
+  journal={arxiv},
+  year={2026},
+  doi = {10.48550/arXiv.2610.29606},
+  url = {https://doi.org/10.48550/arXiv.2610.29606},
 }
 ```
