@@ -3,7 +3,7 @@
 # 面向生物医学全文的特定患者表型概念识别任务
 
 <p align="center">
-        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information?lang=zh-cn">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="https://www.biorxiv.org/content/10.64898/2026.10.07.757319v1">数据集论文(预印版)</a>
+        ⭐ <a href="https://tianchi.aliyun.com/competition/entrance/532512/information?lang=zh-cn">天池评测网址</a>&nbsp&nbsp | &nbsp&nbsp📅 <a href="http://cips-chip.org.cn/2026/">CHIP会议网址<a>&nbsp&nbsp | &nbsp&nbsp🗂️<a href="https://tianchi.aliyun.com/competition/entrance/532512/information">评测数据</a>&nbsp&nbsp | &nbsp&nbsp📃 <a href="https://www.biorxiv.org/content/10.64898/2026.10.07.757319v1">数据集论文(预印版)</a>| &nbsp&nbsp📃 <a href="https://arxiv.org/abs/2610.29606">评测论文(预印版)</a>
 <br>
 <br>
 </p>
@@ -382,15 +382,24 @@ CHIP官网：http://cips-chip.org.cn/ \
 
 ## 引用
 
-如果你使用到了本项目的仓库，请引用。
+如果您使用到了本项目的仓库，请引用。
 
 ```
 @article{PatientPheX,
   title="{PatientPheX: A Full-Text Biomedical Corpus for Patient-Specific Phenotype Information Extraction}",
-  author={Xuanlyu Zhu, Ling Luo, Zhijun Wang, Chentao Huang, Yunxiang Li, Yang Zhong, Tengxiao Lv, Juntao Li, Chao Liu, Feng Tian, Yuanyuan Sun, Jian Wang, Hongfei Linn},
+  author={Xuanlyu Zhu, Ling Luo, Zhijun Wang, Chentao Huang, Yunxiang Li, Yang Zhong, Tengxiao Lv, Juntao Li, Chao Liu, Feng Tian, Yuanyuan Sun, Jian Wang, Hongfei Lin},
   journal={bioRxiv},
   year={2026},
   doi = {10.64898/2026.10.07.757319},
   url = {https://doi.org/10.64898/2026.10.07.757319},
+}
+
+@article{OverviewCHIP,
+  title="{Overview of CHIP 2026 Shared Task 1: Patient-Specific Phenotype Concept Recognition in Full-Text Biomedical Literature}",
+  author={Xuanlyu Zhu, Feng Tian, Yang Zhong, Pengqi Zheng, Xiwen Bi, Ling Luo, Yuanyuan Sun, Jian Wang, Hongfei Lin},
+  journal={arxiv},
+  year={2026},
+  doi = {10.48550/arXiv.2610.29606},
+  url = {https://doi.org/10.48550/arXiv.2610.29606},
 }
 ```
